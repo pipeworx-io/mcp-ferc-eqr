@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/ferc-eqr",
+  "title": "Ferc Eqr",
+  "description": "FERC Electric Quarterly Reports (EQR) — wholesale power sales: who sells",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/ferc-eqr",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-ferc-eqr",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/ferc-eqr/mcp"
+    }
+  ]
+}
