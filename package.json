@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ferc-eqr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FERC Electric Quarterly Reports (EQR) — wholesale power sales: who sells",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b1f40ee82b86217cd7e232937dd7ddbd09d29f8367d6afda41d76101abb3886c",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-01ca1ac94dfd2b9b8149224999b90705016e80cdaafd49ccefab0035182cb9ed",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
