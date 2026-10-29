@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ferc-eqr",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "FERC Electric Quarterly Reports (EQR) — wholesale power sales: who sells to whom, under what contract, at what price and volume.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ferc-eqr": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ferc-eqr"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ferc-eqr.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ferc-eqr",
   "pipeworx": {
-    "sourceHash": "v1-6dae73cfeabcd210d79a72190415378b648a4750d5a5f0451dc4ac1b83b1ceb0",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "ferc-eqr",
+    "gatewaySlug": "ferc-eqr",
+    "sourceHash": "v1-fb51f1271fd8201a072f0bcc5aefbf448a0af2d5529acb4192487d25987353e9",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

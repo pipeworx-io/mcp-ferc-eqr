@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ferc-eqr",
   "title": "Ferc Eqr",
   "description": "FERC Electric Quarterly Reports (EQR) — wholesale power sales: who sells to whom, under what…",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/ferc-eqr",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ferc-eqr",
